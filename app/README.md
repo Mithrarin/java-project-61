@@ -5,3 +5,7 @@
 # Проверка на четность
 
 https://asciinema.org/a/YZ0HMZibYiyto8ZTb5Oa1bIdy
+
+# Калькулятор
+
+https://asciinema.org/a/UoFsujjO4Muv5idf0NstMKZDv
