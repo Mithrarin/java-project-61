@@ -3,6 +3,7 @@ package hexlet.code;
 import java.util.Scanner;
 import hexlet.code.games.Even;
 import hexlet.code.games.Calc;
+import hexlet.code.games.GCD;
 
 class Engine {
     public static void game(int number) {
@@ -20,6 +21,9 @@ class Engine {
             case 3:
                 Calc.rules();
                 break;
+            case 4:
+                GCD.rules();
+                break;
         }
         // Игра
         var attempts = 0;
@@ -34,6 +38,10 @@ class Engine {
                 case 3:
                     question = Calc.question();
                     correctAnswer = Calc.correctAnswer(question);
+                    break;
+                case 4:
+                    question = GCD.question();
+                    correctAnswer = GCD.correctAnswer(question);
                     break;
             }
             // Задаем вопрос
