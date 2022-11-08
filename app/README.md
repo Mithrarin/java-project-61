@@ -10,3 +10,7 @@ https://asciinema.org/a/UoFsujjO4Muv5idf0NstMKZDv
 
 # НОД
 https://asciinema.org/a/npSeyXcLfUlXIsjQiraF0Hq4P
+
+# Арифметическая прогрессия
+https://asciinema.org/a/ZhfSyPLPWvlnAnO2BVpH33Ed4
+

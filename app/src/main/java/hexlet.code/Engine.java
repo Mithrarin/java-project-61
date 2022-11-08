@@ -4,6 +4,7 @@ import java.util.Scanner;
 import hexlet.code.games.Even;
 import hexlet.code.games.Calc;
 import hexlet.code.games.GCD;
+import hexlet.code.games.Progression;
 
 class Engine {
     public static void game(int number) {
@@ -24,6 +25,9 @@ class Engine {
             case 4:
                 GCD.rules();
                 break;
+            case 5:
+                Progression.rules();
+                break;
         }
         // Игра
         var attempts = 0;
@@ -42,6 +46,10 @@ class Engine {
                 case 4:
                     question = GCD.question();
                     correctAnswer = GCD.correctAnswer(question);
+                    break;
+                case 5:
+                    question = Progression.question();
+                    correctAnswer = Progression.correctAnswer(question);
                     break;
             }
             // Задаем вопрос

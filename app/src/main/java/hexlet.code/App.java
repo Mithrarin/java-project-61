@@ -9,13 +9,14 @@ public class App {
         System.out.println("2 - Even");
         System.out.println("3 - Calc");
         System.out.println("4 - GCD");
+        System.out.println("5 - Progression");
         System.out.println("0 - Exit");
         Scanner sc = new Scanner(System.in);
         final int number = sc.nextInt();
         System.out.println("Your choice: " + number);
         if (number == 1) {
             Cli.greeting();
-        } else if (number == 2 || number == 3 || number == 4) {
+        } else if (number == 2 || number == 3 || number == 4 || number == 5) {
             Engine.game(number);
         }
     }

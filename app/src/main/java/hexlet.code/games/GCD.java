@@ -32,8 +32,8 @@ public class GCD {
             // значит результат деления меньшего числа на текущий делитель
             // является НОД-ом. Его и возвращаем.
             if (smallerNumber % divider == 0 && greaterNumber % (smallerNumber / divider) == 0) {
-                    correctAnswer = smallerNumber / divider;
-                    return Integer.toString(correctAnswer);
+                correctAnswer = smallerNumber / divider;
+                return Integer.toString(correctAnswer);
             // В противном случае переходим к следующему делителю
             } else {
                 divider += 1;
