@@ -29,6 +29,9 @@ class Engine {
             case 5:
                 Progression.rules();
                 break;
+            case 6:
+                Prime.rules();
+                break;
         }
         // Игра
         var attempts = 0;
@@ -51,6 +54,10 @@ class Engine {
                 case 5:
                     question = Progression.question();
                     correctAnswer = Progression.correctAnswer(question);
+                    break;
+                case 6:
+                    question = Prime.question();
+                    correctAnswer = Prime.correctAnswer(question);
                     break;
             }
             // Задаем вопрос
