@@ -13,11 +13,17 @@ public class Prime {
 
     public static String correctAnswer(String question) {
         int number = Integer.parseInt(question);
+        // По умолчанию правильный ответ - "да".
         String correctAnswer = "yes";
+        // Если число - единица, меняем правильный ответ на "нет".
         if (number == 1) {
             correctAnswer = "no";
+        // в противном случае начинаем делить число на все значения по порядку.
         } else {
             for (var i = 2; i < number; i++) {
+                // Если число делится без остатка на любое значение,
+                // не являющееся единицей и самим делимым числом,
+                // меняем правильный ответ на "нет" и прерываем цикл.
                 if (number % i == 0) {
                     correctAnswer = "no";
                     break;
